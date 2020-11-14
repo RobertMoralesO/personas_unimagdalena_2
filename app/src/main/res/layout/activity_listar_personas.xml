@@ -32,6 +32,7 @@
 				android:id="@+id/lblNumero"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
 				android:text="@string/numero"
 				android:textSize="18sp"
 				android:textStyle="bold" />
@@ -40,6 +41,7 @@
 				android:id="@+id/lblCedula"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
 				android:text="@string/cedula"
 				android:textSize="18sp"
 				android:textStyle="bold" />
@@ -48,6 +50,7 @@
 				android:id="@+id/lblNombre"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
 				android:text="@string/nombre"
 				android:textSize="18sp"
 				android:textStyle="bold" />
@@ -56,6 +59,7 @@
 				android:id="@+id/textView5"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
 				android:text="@string/apellido"
 				android:textSize="18sp"
 				android:textStyle="bold" />
