@@ -18,13 +18,11 @@ public class MainActivity extends AppCompatActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
 		lista_opciones = findViewById(R.id.lstOpciones);
 		opciones = getResources().getStringArray(R.array.opciones);
 		adapter = new ArrayAdapter<>(this,
 			android.R.layout.simple_list_item_1,opciones);
 		lista_opciones.setAdapter(adapter);
-
 		lista_opciones.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
